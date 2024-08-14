@@ -1,3 +1,5 @@
+//in app.js file create component and simuulate API Call
+
 import React, {useState,useEffect} from 'react';
 
 const App =()=>{
