@@ -4,8 +4,10 @@ import React, { useState, useEffect } from "react";
 
 const fetchTransactions = () =>
      {
+      //use promise
   return new Promise((resolve) => 
     {
+
     setTimeout(() => 
         {
       resolve([
