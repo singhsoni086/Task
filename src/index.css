@@ -1,22 +1,82 @@
 /* App.css */
  
 /* General body styling */
+/* App.css */
+ 
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #e2d6d6;
     margin: 0;
     padding: 0;
   }
    
   /* Container for the application */
   div {
-    max-width: 800px;
+    max-width: 500px;
     margin: 20px auto;
     background-color: #ffffff;
     padding: 20px;
-    border-radius: 8⬤
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
    
-   } /* 
+  /* Heading styling */
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+   
+  /* Customer section styling */
+  h2 {
+    font-size: 20px;
+    color: #0056b3;
+    margin: 15px 0;
+  }
+   
+  /* Points display styling */
+  p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+   
+  /* Add some spacing between customer blocks */
+  .customer-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+   
+  /* Style for each month and points */
+  p span {
+    font-weight: bold;
+    color: #333;
+  }
+   
+  /* Media Query for responsiveness */
+  @media (max-width: 600px) {
+    div {
+      padding: 10px;
+    }
+   
+    h1 {
+      font-size: 20px;
+    }
+   
+    h2 {
+      font-size: 18px;
+    }
+   
+    p {
+      font-size: 14px;
+    }
+  }
+    /* 
 body {
 font-family: Arial, Helvetica, sans-serif;
 background-color: #f4f4f4;
